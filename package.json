@@ -1,0 +1,19 @@
+{
+  "name": "web-chatting",
+  "version": "1.0.0",
+  "description": "Node.js를 활용한 로그인, 웹 소켓을 활용한 채팅 기능을 구현한다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fed-gren/Web-Chatting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fed-gren/Web-Chatting/issues"
+  },
+  "homepage": "https://github.com/fed-gren/Web-Chatting#readme"
+}
