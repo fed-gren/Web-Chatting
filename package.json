@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/fed-gren/Web-Chatting/issues"
   },
-  "homepage": "https://github.com/fed-gren/Web-Chatting#readme"
+  "homepage": "https://github.com/fed-gren/Web-Chatting#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "mongoose": "^5.5.4",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7"
+  }
 }
