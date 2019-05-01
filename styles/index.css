@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #77a1d3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e684ae,
+    #79cbca,
+    #77a1d3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e684ae,
+    #79cbca,
+    #77a1d3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#index_title h1 {
+  text-align: center;
+  padding: 1em 0;
+}
+
+#login {
+  background-color: #3498db;
+  width: 550px;
+  height: 300px;
+  margin: 2em auto 0;
+  display: grid;
+  grid-template-columns: 550px;
+  grid-template-rows: 200px 100px;
+  border-radius: 3px;
+}
+
+#login > #login_input_forms {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 50% 50%;
+}
+
+#login_input_forms > p {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  text-align: left;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+#login_input_forms > input {
+  width: 90%;
+  height: 30%;
+  margin: auto 0;
+  font-size: 20px;
+}
+
+#login > #login_buttons {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#login_buttons > button,
+#login_buttons > input[type=submit] {
+  border: none;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  background-color: white;
+  font-size: 20px;
+}
+
+#login_buttons > button:active {
+  background-color: gray;
+}
+
+#login_buttons > input[type=submit]:active {
+  background-color: gray;
+}
