@@ -10,28 +10,43 @@ body {
 }
 
 body {
-  background: #77a1d3; /* fallback for old browsers */
+  background: #ece9e6; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #e684ae,
-    #79cbca,
-    #77a1d3
+    #ffffff,
+    #ece9e6
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #e684ae,
-    #79cbca,
-    #77a1d3
+    #ffffff,
+    #ece9e6
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #index_title h1 {
   text-align: center;
   padding: 1em 0;
+  font-size: 72px;
+  background: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #login {
-  background-color: #3498db;
+  background-color: #2196f3;
   width: 550px;
   height: 300px;
   margin: 2em auto 0;
@@ -62,6 +77,8 @@ body {
   height: 30%;
   margin: auto 0;
   font-size: 20px;
+  border: 0px;
+  border-radius: 3px;
 }
 
 #login > #login_buttons {
@@ -70,8 +87,9 @@ body {
 }
 
 #login_buttons > button,
-#login_buttons > input[type=submit] {
+#login_buttons > input[type="submit"] {
   border: none;
+  border-radius: 3px;
   width: 50%;
   height: 50%;
   margin: auto;
@@ -83,6 +101,6 @@ body {
   background-color: gray;
 }
 
-#login_buttons > input[type=submit]:active {
+#login_buttons > input[type="submit"]:active {
   background-color: gray;
 }
