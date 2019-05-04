@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-#together-chat {
+#together_chat {
   max-width: 750px;
   margin: 20px auto;
   border: 1px solid rgb(226, 219, 208);
@@ -12,7 +12,7 @@
   border-radius: 2px;
 }
 
-#chat-window {
+#chat_window {
   height: 500px;
   overflow: auto;
   background: #f9f9f9;
