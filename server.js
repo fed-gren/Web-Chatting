@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+const socket = require('socket.io');
 
 const {log} = console;
 
@@ -19,3 +20,17 @@ app.use(express.static(`${PUBLIC_PATH}`));
 app.get('/chat', (req, res) => {
   res.sendFile(path.join(`${__dirname}/${PUBLIC_PATH}/chat.html`));
 })
+
+//Socket setup
+const io = socket(server);
+
+io.on("connection", socket => {
+  log(`made socket connection : ${socket.id}`);
+  socket.on("disconnect", () => {
+    log("user disconnected");
+  });
+
+  socket.on("chat", (data) => {
+    io.sockets.emit("chat", data);
+  });
+});
