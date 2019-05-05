@@ -92,3 +92,6 @@ typings/
 
 # test folder
 *test/
+
+# tutorial
+*tutorial/
