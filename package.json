@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/fed-gren/Web-Chatting#readme",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.18.2",
     "express-session": "^1.16.1",
     "mongoose": "^5.5.4",
     "nodemon": "^1.19.0",
